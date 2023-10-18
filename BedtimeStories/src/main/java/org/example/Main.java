@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 // Ask User for story name
-        System.out.println("Please enter the name of the story: ");
+        System.out.println("Please enter the name of the story: \n1.Goldilocks \n2.hansel_and_gretel \n3.mary_had_a_little_lamb\n");
         Scanner scanner = new Scanner(System.in);
         String UserInput = scanner.nextLine();
 

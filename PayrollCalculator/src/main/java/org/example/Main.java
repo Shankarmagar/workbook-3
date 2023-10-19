@@ -28,6 +28,7 @@ public class Main {
                 System.out.printf("Employee Id: "+ e1.getEmployeeId()+"\nEmployee name: "+ e1.getName()+ "\nEmployee Gross pay: "+ e1.getGrossPay()+ "\n");
                 readLine = ReadFile.readLine();
             }
+            ReadFile.close();
 
         }
         catch(IOException e){

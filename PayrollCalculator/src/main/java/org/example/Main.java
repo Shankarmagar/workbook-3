@@ -61,8 +61,8 @@ public class Main {
                 }
                 else{
                     String s = String.format("""
-{"id":" %d", "name": "%s", "Gross-Pay": "%.2f"},
-""", e1.getEmployeeId(), e1.getName(),e1.getGrossPay());
+                    {"id":" %d", "name": "%s", "Gross-Pay": "%.2f"},
+                     """, e1.getEmployeeId(), e1.getName(),e1.getGrossPay());
                     writer.write(s);
                 }
 
